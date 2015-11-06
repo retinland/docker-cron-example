@@ -28,7 +28,7 @@ To include within an Aptible app, copy the following 5 body lines of the Dockerf
 
 Then, copy ```files``` to your own repo, editing ```files/etc/crontab``` with your own task, and `* * * * *` with your own desired job schedule.
 
-Crash course on cron(tab) job schedules https://en.wikipedia.org/wiki/Cron#Format. Consider the asterisk (```*```) like a wild card. Left to rigt the argument positions are:
+Crash course on cron(tab) job schedules https://en.wikipedia.org/wiki/Cron#Format. Consider the asterisk (```*```) like a wild card. Left to right the argument positions are:
 
 ```
 [Minute Arg] [Hours Arg] [Day of month arg] [Month arg] [Day of week]
